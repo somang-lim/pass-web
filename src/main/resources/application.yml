@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: pass-web
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    cache: false
+  profiles:
+    include: secret
